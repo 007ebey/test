@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image using docker image
-      run: docker compose up
+      run: docker build .
